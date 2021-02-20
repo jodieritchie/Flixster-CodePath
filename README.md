@@ -2,6 +2,9 @@
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ---
+Submitted by: Jodie Ritchie
+
+Time spent: **5** hours spent in total
 
 ## Flix Part 1
 
