@@ -4,7 +4,40 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ---
 Submitted by: Jodie Ritchie
 
-Time spent: **5** hours spent in total
+Time spent: **8** hours spent in total
+
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+
+- [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+#### BONUS
+
+- [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
+- [x] Trailers for popular movies are played automatically when the movie is selected (1 point).
+  - [x] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+  - [x] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
+- [ ] Apply data binding for views to help remove boilerplate code. (1 point)
+- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+
+### App Walkthough GIF
+
+![Flixster Demo Part2](https://user-images.githubusercontent.com/70171621/109375593-89083f00-7883-11eb-8748-564448e65339.gif)
+
+![Flixster Demo Part2 II](https://user-images.githubusercontent.com/70171621/109375623-bead2800-7883-11eb-8fbc-377196574344.gif)
+
+### Notes
+
+The SDKVersion had to be changed due to challenges with the YouTube Player initializing.
+
+## Open-source libraries used
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
 ## Flix Part 1
 
@@ -21,11 +54,6 @@ Time spent: **5** hours spent in total
 - [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
 - [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
-
-### App Walkthough GIF
-
-![Flixster Demo](https://user-images.githubusercontent.com/70171621/108580284-7b394380-72f0-11eb-8186-8bebde0a2779.gif) 
-![Flixster Demo2](https://user-images.githubusercontent.com/70171621/108580297-88eec900-72f0-11eb-887f-68491010a135.gif)
 
 ### Notes
 Challenges Encountered: Rendering of images landscape.
