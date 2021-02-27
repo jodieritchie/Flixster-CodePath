@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp">
@@ -14,9 +15,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:adjustViewBounds="true"
-        android:layout_marginRight="5dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
         android:scaleType="fitXY"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -27,12 +28,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_centerHorizontal="true"
         android:layout_marginRight="10dp"
         android:layout_toRightOf="@+id/ivPoster"
         android:fontFamily="@font/roboto_medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/grey"
-        android:layout_centerHorizontal="true"
         tools:text="Wonder Woman 1984" />
 
     <TextView
@@ -40,10 +41,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
+        android:layout_marginRight="10dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:layout_toRightOf="@+id/ivPoster"
         android:fontFamily="@font/roboto"
-        android:layout_marginRight="10dp"
         android:textColor="@color/grey"
         tools:text="Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah." />
 </RelativeLayout>
